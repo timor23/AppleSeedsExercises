@@ -1,0 +1,83 @@
+body {
+    background-image:url("https://www.photos-public-domain.com/wp-content/uploads/2011/01/snow-texture.jpg");
+}
+.header {
+    font-family:cursive;
+    font-weight: bolder;
+    font-size: 26px;
+    color:indigo;
+    padding-top: 30px;
+}
+.content {
+    /* padding-left: 50px; */
+    margin-left: 5%;
+}
+.pic {
+    border: 2px solid indigo;
+    width: 200px;
+    height: 200px;
+}
+
+.text {
+    /* padding: 5%; */
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 5px indigo solid;
+}
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: indigo;
+    /* border-radius: 5px; */
+    overflow: auto;
+    position: fixed;
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    color:#fff;
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.navbar li a:hover {
+    background: #7f06db;
+}
+
+/* mobile view */
+@media (max-width:414px) {
+    .navbar {
+        width: 100vw;
+        left: 0;
+        top:0;
+    }
+
+    .navbar li {
+        width: 25vw;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .content {
+        margin: 0 0;
+    }
+    .pic {
+        width: 100vw;
+        height: 100vw;
+        margin-left: 0;
+    }
+
+    body {
+        margin: 0 0;
+    }
+
+    .text, p {
+    text-align: justify;
+    padding: 0 20px;
+    }
+}
