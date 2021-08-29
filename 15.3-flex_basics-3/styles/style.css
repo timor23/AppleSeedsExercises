@@ -1,0 +1,38 @@
+body {
+    height: 500px;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    background: palegoldenrod;
+} 
+
+.horizontal {
+    display: flex;
+    margin-left: 50%;
+    /* margin: auto; */
+    margin-top: 400px;
+    width: 50%;
+    height: 20%;
+}
+
+.horizontal div {
+    width: 33.33%;
+    height: 100%;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.red {
+    background: red;
+}
+
