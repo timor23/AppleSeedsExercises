@@ -1,0 +1,15 @@
+#hello1 {
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: larger;
+}
+#hello2 {
+    font-weight: bold;
+    font-style: italic;
+}
+#hello3 {
+    box-shadow: 3px 3px gray;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}

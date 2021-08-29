@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media(max-width: 600px) {
+    p, h1 {
+        font-size: 16px;
+        background: red;
+    }
+}
+
+@media(min-width: 601px) and (max-width: 800px) {
+    p, h1 {
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 801px) and (max-width: 1000px) {
+    p, h1 {
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 1001px) and (max-width: 1200px) {
+    p, h1 {
+        font-size: 34px;
+    }
+}
+
+@media(min-width: 1200px) {
+    p, h1 {
+        font-size: 38px;
+        /* background: red; */
+    }
+}

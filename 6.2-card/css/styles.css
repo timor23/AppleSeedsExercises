@@ -1,0 +1,19 @@
+.card {
+    font-size: 20px;
+    width: 600px;
+    height: 600px;
+    border: 2px solid;
+    background-color: wheat;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 20px 70px 5px; 
+}
+.title {
+    font-weight: bold;
+    font-size: larger;
+
+}
+.container {
+    padding: 10px;
+}
+.places {
+    color: purple;
+}

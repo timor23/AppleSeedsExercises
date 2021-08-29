@@ -1,0 +1,108 @@
+body {
+    background: #35475f;
+}
+button {
+    color: white;
+    border: unset;
+}
+div {
+}
+.large {
+    width: 100px;
+    height: 40px;
+
+}
+.medium {
+    width: 85px;
+    height: 30px;
+}
+.small {
+    width: 70px;
+    height: 20px;
+}
+.flat button{
+    border-radius: 0px;
+}
+.round button {
+    border-radius: 15px;
+}
+.flat-ghost button {
+    border-radius: 0px;
+    background: transparent;
+}
+.round-ghost button {
+    border-radius: 15px;
+    background: transparent;
+}
+.flat .large {
+    background: #00dd78;
+}
+.flat .large:hover {
+    background: #00B061;
+}
+.flat .medium {
+    background: #FC2425;
+}
+.flat .medium:hover {
+    background: #a50d0d;
+}
+.flat .small {
+    background: #0C8ED2;
+}
+.flat .small:hover {
+    background: #0075BF;
+}
+.round .large {
+    background: #F57A07;
+}
+.round .large:hover {
+    background: #CE6105;
+}
+.round .medium {
+    background: #F4CE0B;
+}
+.round .medium:hover {
+    background: #C9A708;
+}
+.round .small {
+    background: #7B8B8C;
+}
+.round .small:hover {
+    background: #647475;
+}
+.flat-ghost .large {
+    border: 1px solid #00dd78 ;
+}
+.flat-ghost .medium {
+    border: 1px solid #FC2425;
+}
+.flat-ghost .small {
+    border: 1px solid #0C8ED2;
+}
+.round-ghost .large {
+    border: 1px solid #F57A07;
+}
+.round-ghost .medium {
+    border: 1px solid #F4CE0B;
+}
+.round-ghost .small {
+    border: 1px solid #7B8B8C;
+}
+.flat-ghost .large:hover {
+    background:#00dd78 ;
+}
+.flat-ghost .medium:hover {
+    background:#FC2425;
+}
+.flat-ghost .small:hover {
+    background:#0C8ED2;
+}
+.round-ghost .large:hover {
+    background:#F57A07;
+}
+.round-ghost .medium:hover {
+    background:#F4CE0B;
+}
+.round-ghost .small:hover {
+    background:#7B8B8C;
+}
