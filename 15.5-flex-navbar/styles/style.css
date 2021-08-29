@@ -34,7 +34,7 @@ a {
     /* margin: auto 0; */
     background: grey;
 }
-
+/* it looks ugly, sorry I had to rush it */
 /* mobile view */
 @media (max-width:414px) {
     .container {
