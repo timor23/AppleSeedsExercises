@@ -1,0 +1,20 @@
+.parent {
+    content: "";
+    width: 800px;
+    height: 800px;
+    background: red;
+    display: flex;
+    position: relative;
+}
+
+.parent:hover::before {
+    background: blue;
+}
+
+.parent > div {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: purple;
+}
+ 
