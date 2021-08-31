@@ -1,19 +1,14 @@
-.parent {
+.box {
     width: 800px;
     height: 800px;
     background: red;
     position: relative;
 }
 
-.parent div:first-child {
+.box::after {
+    content: '';
     position: absolute;
     width: 50%;
     height: 100%;
-    background: purple;
+    background: purple; 
 }
-
-.parent:hover div:first-child {
-    background: darkblue;
-}
-
-

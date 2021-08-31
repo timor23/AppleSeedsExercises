@@ -1,1 +1,27 @@
- 
+.cupiditate {
+    color: sandybrown;
+}
+
+[data-tooltip]  {
+    position: relative;
+}
+
+[data-tooltip]::after {
+    position: absolute;
+    width: 150px;
+    left: 10px;
+    bottom: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    content: attr(data-tooltip);
+    color: #56008c;
+    background: #edda9d;
+    padding: 5px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+[data-tooltip]:hover::after {
+    visibility: visible;
+}

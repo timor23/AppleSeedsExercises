@@ -1,20 +1,18 @@
-.parent {
-    content: "";
+.box {
     width: 800px;
     height: 800px;
     background: red;
-    display: flex;
     position: relative;
 }
 
-.parent:hover::before {
-    background: blue;
-}
-
-.parent > div {
+.box::after {
+    content: '';
     position: absolute;
     width: 50%;
     height: 100%;
-    background: purple;
+    background: purple; 
 }
- 
+
+.box:hover::after {
+    background: seagreen;
+}
