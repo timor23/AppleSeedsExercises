@@ -17,8 +17,11 @@ body {
     padding-top: 30px;
 }
 .content {
-    /* padding-left: 50px; */
-    margin-left: 5%;
+    margin: 0 80px;
+}
+
+.content p {
+    text-align: justify;
 }
 .pic {
     border: 2px solid var(--primary-color);
@@ -78,6 +81,12 @@ body {
     background: var(--secondary-color);
 }
 
+.box {
+    width: 25%;
+    padding: 0 10px;
+    background: var(--secondary-color);
+}
+
 .social-links {
     display: flex;
     width: 100px;
@@ -85,7 +94,7 @@ body {
 }
 
 /* mobile view */
-@media (max-width:414px) {
+/* @media (max-width:414px) {
     .navbar {
         width: 100vw;
         left: 0;
@@ -117,4 +126,4 @@ body {
     text-align: justify;
     padding: 0 20px;
     }
-}
+} */
